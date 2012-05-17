@@ -1,0 +1,59 @@
+.page {
+    position: relative;
+}
+.lists {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.list-i {
+    width: 100%;
+    height: 200rpx;
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ddd;
+    margin-bottom:22rpx;
+    box-shadow:0 3px 3px #eee;
+}
+
+.content {
+    height: 110rpx;
+    border-bottom: 1px dashed #ddd;
+    line-height: 110rpx;
+    padding: 0 20rpx;
+}
+
+.time {
+    color: #aaa;
+    line-height: 90rpx;
+    padding: 0 20rpx;
+}
+.add {
+    width: 100rpx;
+    height: 100rpx;
+    position: absolute;
+    right: 80rpx;
+    bottom: 80rpx;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#f2f2f2;
+}
+.add image {
+    width: 40rpx;
+    height: 40rpx;
+}
+.empty_ele {
+    text-align:center;color:#aaa;height:100%;display:table;vertical-align:middle;width:100%
+}
+.icon1 {display:inline-block;vertical-align:middle;margin-right:10rpx;}
+.e1 {display:table-cell;vertical-align:middle;margin-top:-100rpx;}
+.del {float:right;color:#f66;border:1px solid #bbb;height:60rpx;vertical-align:middle;
+margin-top:14rpx;line-height:60rpx;padding:0 15rpx;background:#fff;border-radius:3px;font-size:34rpx;}

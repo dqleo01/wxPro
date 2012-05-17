@@ -1,0 +1,21 @@
+<view class="page"> 
+    <!--每一条文字-->
+    <scroll-view scroll-y="true" class="lists">
+        <view class="empty_ele" wx:if="{{lists.length==0}}">
+            <view class="e1"><icon class="icon1" type="warn" size="30" color="#f88" />暂无内容</view>
+        </view>
+        <block wx:for="{{lists}}">
+            <view class="list-i" bindtap="edit" data-id="{{item.id}}">
+                <view class="content">{{item.content}}</view>
+                <view class="time">创建时间：{{item.time}}<view class="del" catchtap="delet" data-did="{{item.id}}">删除</view></view>
+                <block hidden>
+
+                </block>
+            </view>
+        </block>
+    </scroll-view>
+    <!--添加一条文字的按钮-->
+    <view class="add" bindtap="add">
+        <icon type="info_circle" size="40" color="#5c5" />
+    </view>
+</view>

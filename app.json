@@ -1,0 +1,14 @@
+﻿{
+  "pages":[
+    "pages/list/list",
+    "pages/add/add"
+  ],
+  
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#e55",
+    "navigationBarTitleText": "列表",
+    "navigationBarTextStyle":"#fff"
+  }
+
+}
